@@ -29,7 +29,7 @@ function getIndex(index: number, option: "number" | string[]) {
 }
 
 function splitByOption(obj: string, rule: "words" | "chars") {
-	if (rule === "words") {
+	if (rule === "chars") {
 		const splittedValue = obj.split("");
 		return splittedValue;
 	} else {
