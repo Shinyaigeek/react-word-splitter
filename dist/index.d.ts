@@ -10,4 +10,4 @@ interface SplitterProps {
 
 export { SplitterProps };
 
-export default function Splitter(props:SplitterProps)
+export default function Splitter(props:SplitterProps):JSX.Element
