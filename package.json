@@ -1,15 +1,25 @@
 {
   "name": "react-word-splitter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This module enables devlopper to split words into word with span tag with react",
+  "main": "./dist/bundle.js",
+  "types":"./lib/index.d.ts",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/Shinyaigeek/react-word-splitter"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "split",
+    "word"
+  ],
+  "author": "Shinyaigeek <PhilisPaxil@gmail.com> (https://github.com/Shinyaigeek)",
+  "license": "MIT",
   "dependencies": {
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
