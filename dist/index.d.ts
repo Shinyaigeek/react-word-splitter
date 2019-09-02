@@ -9,3 +9,5 @@ interface SplitterProps {
 }
 
 export { SplitterProps };
+
+export default function Splitter(props:SplitterProps)
