@@ -13,7 +13,11 @@ function mergeWord(
 	span.setAttribute("class", eachClass);
 	span.setAttribute("id", id);
 	span.textContent = obj;
-	return span;
+	return(
+        <span id={eachIdWithIndex + "__" + index} className={eachClass}>
+            {obj}
+        </span>
+    )
 }
 
 function getIndex(index: number, option: "number" | string[]) {
