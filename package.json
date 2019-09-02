@@ -1,6 +1,6 @@
 {
   "name": "react-word-splitter",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This module enables devlopper to split words into word with span tag with react",
   "main": "./dist/bundle.js",
   "types": "./dist/index.d.ts",
