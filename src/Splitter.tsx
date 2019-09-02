@@ -47,21 +47,21 @@ function getEachNode(props: SplitterProps) {
 	return nodes;
 }
 
-// export default function Splitter(props: SplitterProps) {
-//     const nodes = getEachNode(props)
-// 	return (
-// 		<React.Fragment>
-// 			{nodes}
-// 		</React.Fragment>
-// 	);
-// }
-
-export default class Splitter extends React.Component<SplitterProps, {}> {
-	constructor(props: SplitterProps) {
-		super(props);
-	}
-	render() {
-		const nodes = getEachNode(this.props);
-		return <React.Fragment>{nodes}</React.Fragment>;
-	}
+export default function Splitter(props: SplitterProps) {
+    const nodes = getEachNode(props)
+	return (
+		<React.Fragment>
+			{nodes}
+		</React.Fragment>
+	);
 }
+
+// export default class Splitter extends React.Component<SplitterProps, {}> {
+// 	constructor(props: SplitterProps) {
+// 		super(props);
+// 	}
+// 	render() {
+// 		const nodes = getEachNode(this.props);
+// 		return <React.Fragment>{nodes}</React.Fragment>;
+// 	}
+// }
